@@ -9,10 +9,12 @@ header {
   background: #0075bb;
   color: #fff;
 }
+.flex-wrapper {
+  display: flex;
+}
 section {
   background: #e7e7e7;
-  width: 75%;
-  float: left;
+  flex-basis: 75%;
 }
 article {
   background: white;
@@ -20,8 +22,7 @@ article {
 }
 aside {
   background: pink;
-  width: 25%;
-  float: right;
+  flex-basis: 25%;
 }
 header, article, section, .module {
   padding: 1rem;
