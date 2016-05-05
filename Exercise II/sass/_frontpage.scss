@@ -37,9 +37,6 @@ img {
 .story-intro {
   font-size: 1.2rem;
   height: 9rem;
-  position: absolute;
-  bottom: 0;
-  left: 0;
   width: 100%;
   background: rgba(0, 0, 0, 0.75);
   padding: 20px;
@@ -78,7 +75,6 @@ p {
   height: 43em;
   margin-right: 25px;
   margin: 0 auto;
-  margin-bottom: 3em;
   position: relative;
   font-size: 13px;
   text-align: center;
