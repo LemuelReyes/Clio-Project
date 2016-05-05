@@ -10,32 +10,32 @@
   position: relative;
   margin: 0 0 25px 0;
 img {
-  height: 50vh;
+  height: 50%;
   position: relative;
 }
 .story-intro {
-  height: 14vh;
-  font-size: 1em;
+  height: 14%;
+  font-size: 1rem;
 }
 
 @include tablet {
     img {
-        height: 60vh;
+        height: 60%;
     }
     .story-intro {
-        height: 17vh;
+        height: 30%;
     }
   } // ends tablet breakpoint
 
 @include desktop {
     img {
-        height: 72vh;
+        height: 72%;
     }
  }  // ends desktop breakpoint
 }
 
 .story-intro {
-  font-size: 1.2em;
+  font-size: 1.2rem;
   height: 9rem;
   position: absolute;
   bottom: 0;
@@ -45,19 +45,19 @@ img {
   padding: 20px;
   color: white;
 h1 {
-    font-size: 2.4em;
+    font-size: 2.4rem;
   }
 p {
-    font-size: 2em;
+    font-size: 2rem;
     margin: 0;
   }
 
   @include tablet {
-    font-size: 0.9em;
-    height: 7rem;
+    font-size: 0.9rem;
+    height: 8rem;
 
 p {
-    font-size: 1.5em;
+    font-size: 1.5rem;
   }
  } // end tablet
 }
