@@ -31,6 +31,14 @@ h1, h2 {
   .main-story .story-intro {
     height: 14vh;
     font-size: 1em; }
+  @media (min-width: 720px) {
+    .main-story img {
+      height: 60vh; }
+    .main-story .story-intro {
+      height: 17vh; } }
+  @media (min-width: 1080px) {
+    .main-story img {
+      height: 72vh; } }
 
 .story-intro {
   font-size: 1.2em;

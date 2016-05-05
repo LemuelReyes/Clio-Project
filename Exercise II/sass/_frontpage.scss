@@ -17,8 +17,22 @@ img {
   height: 14vh;
   font-size: 1em;
 }
-}
 
+@include tablet {
+    img {
+        height: 60vh;
+    }
+    .story-intro {
+        height: 17vh;
+    }
+  } // ends tablet breakpoint
+
+@include desktop {
+    img {
+        height: 72vh;
+    }
+ }  // ends desktop breakpoint
+}
 .story-intro {
   font-size: 1.2em;
   height: 9rem;
@@ -53,11 +67,9 @@ p {
   overflow: hidden;
   margin: 0 0 25px 0;
 
-
   @include tablet {
   flex-direction: row;
   }
-
 }
 
 .sub-story {
@@ -87,5 +99,5 @@ img {
   width: 23em;
   height: 18em;
   }
-  }
+}  // ends tablet
 }
