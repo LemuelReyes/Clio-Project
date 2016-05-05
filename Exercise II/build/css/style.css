@@ -5,7 +5,8 @@ body {
   font-family: 'Helvetica Neue', sans-serif; }
 
 img {
-  display: block; }
+  display: block;
+  height: auto; }
 
 a {
   color: #0075bb; }
@@ -18,12 +19,17 @@ h1, h2 {
 
 /* CSS Document */
 .page-wrap {
-  width: 890px;
+  width: 90vw;
   margin: 20px auto; }
 
 .main-story {
   position: relative;
   margin: 0 0 25px 0; }
+  .main-story img {
+    height: 42vh;
+    position: relative; }
+  .main-story .story-intro {
+    height: 10vh; }
 
 .story-intro {
   position: absolute;
@@ -39,14 +45,20 @@ h1, h2 {
     margin: 0; }
 
 .sub-stories {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   overflow: hidden;
   margin: 0 0 25px 0; }
 
 .sub-story {
-  float: left;
-  width: 280px;
+  width: 50vw;
   height: 305px;
   margin-right: 25px;
+  margin: 0 auto;
   position: relative;
   font-size: 13px;
   text-align: center; }
