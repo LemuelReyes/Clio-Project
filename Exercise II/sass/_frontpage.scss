@@ -7,11 +7,11 @@
 }
 
 .main-story {
-  position: relative;
+
   margin: 0 0 25px 0;
 img {
   height: 50%;
-  position: relative;
+
 }
 .story-intro {
   height: 14%;
@@ -42,10 +42,10 @@ img {
   padding: 20px;
   color: white;
 h1 {
-    font-size: 2.4rem;
+    font-size: 1.4rem;
   }
 p {
-    font-size: 2rem;
+    font-size: 1rem;
     margin: 0;
   }
 
@@ -71,11 +71,11 @@ p {
 }
 
 .sub-story {
-  width: 50vw;
+  width: 85%;
   height: 43em;
   margin-right: 25px;
   margin: 0 auto;
-  position: relative;
+
   font-size: 13px;
   text-align: center;
 
@@ -84,12 +84,12 @@ p {
 }
 img{
   display: inline-block;
-  width: 41em;
-  height: 30em;
+  width: 20em;
+  height: 16em;
 }
 
   @include tablet {
-  width: 28vw;
+  width: 31%;
   height: 31em;
 
 img {

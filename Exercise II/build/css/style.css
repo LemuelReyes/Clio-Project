@@ -24,11 +24,9 @@ h1, h2 {
   margin: 20px auto; }
 
 .main-story {
-  position: relative;
   margin: 0 0 25px 0; }
   .main-story img {
-    height: 50%;
-    position: relative; }
+    height: 50%; }
   .main-story .story-intro {
     height: 14%;
     font-size: 1rem; }
@@ -49,9 +47,9 @@ h1, h2 {
   padding: 20px;
   color: white; }
   .story-intro h1 {
-    font-size: 2.4rem; }
+    font-size: 1.4rem; }
   .story-intro p {
-    font-size: 2rem;
+    font-size: 1rem;
     margin: 0; }
   @media (min-width: 720px) {
     .story-intro {
@@ -76,22 +74,21 @@ h1, h2 {
               flex-direction: row; } }
 
 .sub-story {
-  width: 50vw;
+  width: 85%;
   height: 43em;
   margin-right: 25px;
   margin: 0 auto;
-  position: relative;
   font-size: 13px;
   text-align: center; }
   .sub-story :last-child {
     margin-right: 0; }
   .sub-story img {
     display: inline-block;
-    width: 41em;
-    height: 30em; }
+    width: 20em;
+    height: 16em; }
   @media (min-width: 720px) {
     .sub-story {
-      width: 28vw;
+      width: 31%;
       height: 31em; }
       .sub-story img {
         width: 23em;
