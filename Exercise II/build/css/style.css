@@ -53,10 +53,10 @@ h1, h2 {
     margin: 0; }
   @media (min-width: 720px) {
     .story-intro {
-      font-size: 0.9rem;
-      height: 8rem; }
+      font-size: 0.6rem;
+      height: 29%; }
       .story-intro p {
-        font-size: 1.5rem; } }
+        font-size: 1rem; } }
 
 .sub-stories {
   display: -webkit-flex;
@@ -87,7 +87,4 @@ h1, h2 {
   @media (min-width: 720px) {
     .sub-story {
       width: 31%;
-      height: 31em; }
-      .sub-story img {
-        width: 23em;
-        height: 18em; } }
+      height: 31em; } }

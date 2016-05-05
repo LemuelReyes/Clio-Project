@@ -50,11 +50,11 @@ p {
   }
 
   @include tablet {
-    font-size: 0.9rem;
-    height: 8rem;
+    font-size: 0.6rem;
+    height: 29%;
 
 p {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
  } // end tablet
 }
@@ -88,9 +88,5 @@ img{
   width: 31%;
   height: 31em;
 
-img {
-  width: 23em;
-  height: 18em;
-  }
 }  // ends tablet
 }
