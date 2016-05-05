@@ -15,10 +15,13 @@ img {
 }
 .story-intro {
   height: 10vh;
+  font-size: 1em;
 }
 }
 
 .story-intro {
+  font-size: 1.2em;
+  height: 9rem;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -27,9 +30,10 @@ img {
   padding: 20px;
   color: white;
 h1 {
-    font-size: 30px;
+    font-size: 2.4em;
   }
 p {
+    font-size: 2em;
     margin: 0;
   }
 }
@@ -43,9 +47,10 @@ p {
 
 .sub-story {
   width: 50vw;
-  height: 305px;
+  height: 43em;
   margin-right: 25px;
   margin: 0 auto;
+  margin-bottom: 3em;
   position: relative;
   font-size: 13px;
   text-align: center;
@@ -55,6 +60,7 @@ p {
 }
 img{
   display: inline-block;
-  width: 250px;
+  width: 41em;
+  height: 30em;
 }
 }
