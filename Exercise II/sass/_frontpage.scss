@@ -36,6 +36,11 @@ p {
     font-size: 2em;
     margin: 0;
   }
+
+  @include tablet {
+    font-size: 0.9em;
+    height: 7rem;
+  }
 }
 
 .sub-stories {
@@ -43,6 +48,12 @@ p {
   flex-direction: column;
   overflow: hidden;
   margin: 0 0 25px 0;
+
+
+  @include tablet {
+  flex-direction: row;
+  }
+
 }
 
 .sub-story {
@@ -63,4 +74,14 @@ img{
   width: 41em;
   height: 30em;
 }
+
+  @include tablet {
+  width: 28vw;
+  height: 31em;
+
+img {
+  width: 23em;
+  height: 18em;
+  }
+  }
 }

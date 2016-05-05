@@ -47,6 +47,10 @@ h1, h2 {
   .story-intro p {
     font-size: 2em;
     margin: 0; }
+  @media (min-width: 720px) {
+    .story-intro {
+      font-size: 0.9em;
+      height: 7rem; } }
 
 .sub-stories {
   display: -webkit-flex;
@@ -57,6 +61,11 @@ h1, h2 {
           flex-direction: column;
   overflow: hidden;
   margin: 0 0 25px 0; }
+  @media (min-width: 720px) {
+    .sub-stories {
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
 
 .sub-story {
   width: 50vw;
@@ -73,3 +82,10 @@ h1, h2 {
     display: inline-block;
     width: 41em;
     height: 30em; }
+  @media (min-width: 720px) {
+    .sub-story {
+      width: 28vw;
+      height: 31em; }
+      .sub-story img {
+        width: 23em;
+        height: 18em; } }
