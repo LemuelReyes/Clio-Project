@@ -26,10 +26,10 @@ h1, h2 {
   position: relative;
   margin: 0 0 25px 0; }
   .main-story img {
-    height: 42vh;
+    height: 50vh;
     position: relative; }
   .main-story .story-intro {
-    height: 10vh;
+    height: 14vh;
     font-size: 1em; }
 
 .story-intro {
