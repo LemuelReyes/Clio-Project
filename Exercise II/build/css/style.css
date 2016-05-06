@@ -31,13 +31,11 @@ h1, h2 {
     height: 14%;
     font-size: 1rem; }
   @media (min-width: 720px) {
-    .main-story img {
-      height: 60%; }
     .main-story .story-intro {
       height: 30%; } }
   @media (min-width: 1080px) {
     .main-story img {
-      height: 72%; }
+      height: 55vh; }
     .main-story .story-intro h1 {
       font-size: 2.4rem; } }
 
